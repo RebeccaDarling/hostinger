@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Web Page Project 1</title>
+</head>
+<body>
+<style>
+ body {
+    background-image: url(/images/backgrounds/blackscratch.png);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: hsla(208, 100%, 97%, .45);
+}
+
+#cert{
+    display: inline-box;
+    color: rgb(185, 255, 73);
+    text-transform: uppercase;
+}
+        
+.year1 {
+    text-align: left;
+    width: 89%;
+    color: greenyellow;
+    font-size: 20px;
+    padding-left: 15px;
+ } 
+
+ .oct1 {
+    background-color: rgb(204, 255, 0);
+    box-shadow: 29px 14px rgb(90, 154, 231);
+    width: 225px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 100px;
+ }
+
+#html, #css {
+    text-align: center;
+    width: 260px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 109px;
+ }
+
+
+ .november {
+    background-color: rgb(29, 255, 4);
+    box-shadow: 29px 14px rgb(231, 90, 177);
+    width: 225px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 200px;
+ }
+
+#rwebdesign {
+    text-align: center;
+    width: 380px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 220px;
+ }
+#fedl1{
+    text-align: center;
+    width: 500px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 227px;
+}
+ .december {
+    background-color: rgb(4, 226, 255);
+    box-shadow: 29px 14px rgb(255, 41, 41);
+    width: 225px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 290px;
+ }
+
+#fedl2 {
+    text-align: center;
+    width: 499px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 320px;
+ }
+ #qa {
+    text-align: center;
+    width: 360px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 294px;
+ }
+
+#bootst{
+    text-align: center;
+    width: 104px;
+    color: rgb(255, 129, 129);
+    font-size: 17px;
+    margin-left: 270px;
+}
+#jq{
+    text-align: center;
+    width: 80px;
+    color: rgb(255, 129, 129);
+    font-size: 17px;
+    margin-left: 270px;
+}
+
+  #sass, #react {
+    text-align: center;
+    width: 80px;
+    color: rgb(255, 129, 129);
+    font-size: 17px;
+    margin-left: 350px;
+ }
+
+ #chai {
+    text-align: center;
+    width: 342px;
+    color: rgb(255, 129, 129);
+    font-size: 17px;
+    margin-left: 352px;
+ }
+
+#year1{
+    width: 342px;
+    color: rgb(189, 175, 132);
+    font-size: 37px;
+}
+
+ #year2 {
+    width: 342px;
+    color: rgb(189, 175, 132);
+    font-size: 37px;
+ }
+</style>
+    <main> 
+        <div class="timeline">
+            <h2 id="cert">Certifications</h2>
+            <h3 id="year1">2022</h3>
+            <h3 id="year2">2023</h3>
+            <h4 class="oct1"> Oct. 2023</h4>
+            <ul>
+                <li id="html"> Learn HTML Certification</li>
+                <li id="css"> Learn CSS Certification</li>
+            </ul>
+
+            <h4 class="november"> Nov. 2023</h4>
+                <li id="rwebdesign">Responsive Web Design Certification</li>
+                <li id="fedl1">Front End Development Libraries Certification (pt. 1)</li>
+                <ul>
+                    <li id="bootst">Bootstrap</li>
+                    <li id="jq">jQuery</li></ul>
+
+            <h4 class="december"> Dec. 2023</h4>
+                <li id="fedl2">Front End Development Libraries Certification (pt. 2)</li>
+                    <ul>
+                        <li id="sass">SASS</li>
+                        <li id="react">React</li>
+                    </ul>
+                    <li id="qa">Quality Assurance Certification</li>
+                    <ul>
+                        <li id="chai">Quality Assurance and Testing with Chai</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        $(document).ready(function() {
+            // Add the "bounce" class to the h4 element with class "oct1"
+            $(".oct1").addClass("bounce");
+        });
+    </script>
+</body> 
+</html>

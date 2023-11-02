@@ -1,0 +1,14 @@
+.vline1{
+    background-color: aliceblue;
+    box-shadow: 10px 12px rgb(0, 255, 213);
+    height: 300px;
+    width:10px;
+    margin-left: 200px;
+    margin-right: 0px;
+ }
+
+ .vline1, .oct1{
+    display: inline-block;
+    position: absolute;
+z-index: ;
+ }
